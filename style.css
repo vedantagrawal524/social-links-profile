@@ -8,4 +8,75 @@
 
 html {
   font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+main {
+  margin: 0 auto;
+}
+
+.profile {
+  width: 25rem;
+  padding: 2.5rem;
+  border-radius: 12px;
+  margin: 0 2em;
+
+  text-align: center;
+  background-color: hsl(0, 0%, 12%);
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+
+.name {
+  margin-top: 20px;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.7em;
+  margin-bottom: 8px;
+}
+
+.address {
+  font-weight: 400;
+  font-size: small;
+  color: hsl(75, 94%, 57%);
+}
+
+.bio {
+  margin-top: 22px;
+  font-size: 13px;
+  color: hsl(0, 0%, 60%);
+}
+
+ul {
+  list-style-type: none;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  font-weight: 600;
+  width: 100%;
+}
+
+ul li a {
+  display: block;
+  padding: 10px;
+  margin-top: 17px;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 6px;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+ul li:hover a {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+  cursor: pointer;
 }
